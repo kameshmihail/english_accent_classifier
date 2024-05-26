@@ -23,43 +23,68 @@ https://drive.google.com/drive/folders/16yvBUWeUKDBIymsYeQIA2H8YEQFfpoyR?usp=sha
 
 С данными в таком виде можно выполнять функции классификации типа акцента по примеру работы исходной модели.
 
-Образец того, как данные можно привести к необходимому виду приведены в файле external_data.ipynb на примере датасета common voice.
+Образец того, как данные можно привести к необходимому виду приведены в файле external_dataset.ipynb на примере датасета common voice.
 
 Список библиотек, используемых в задании, полученных через функцию version (для корректной работы программы):
 
 from importlib.metadata import version
 
 version('numpy') 	'1.26.2'
+
 version('pandas')	'2.1.3'
+
 version('torchaudio')	'2.1.1'
+
 version('librosa')	'0.10.1'
+
 version('IPython')	'7.31.1'
+
 version('transformers')	'4.36.0.dev0'
+
 version('torch')		'2.1.1'
+
 version('accelerate')	'0.25.0'
+
 version('wandb')	'0.16.0'
+
 version('matplotlib')	'3.5.1'
+
 version('tqdm')		‘4.66.1'
+
 version('datasets')	'2.15.1.dev0'
+
 version('jiwer')		'3.0.3'
+
 version('typing')	'3.7.4.3'
 
+
 from sklearn import __version__
+
 print(__version__)  1.3.2
 
 
 Команды, необходимые для их установки :
 
 pip install 'numpy==1.26.2' --force-reinstall
+
 pip install 'pandas==2.1.3' --force-reinstall
+
 pip install 'torchaudio==2.1.1' --force-reinstall
+
 pip install 'librosa==0.10.1' --force-reinstall
+
 pip install 'IPython==7.31.1' --force-reinstall
+
 pip install 'transformers==4.36.0' --force-reinstall
+
 pip install 'torch==2.1.1' --force-reinstall
+
 pip install 'accelerate==0.25.0' --force-reinstall
+
 pip install 'wandb==0.16.0' --force-reinstall
+
 pip install 'matplotlib==3.5.1' --force-reinstall
+
 pip install 'tqdm==4.66.1' --force-reinstall
 pip install 'datasets==2.15.0' --force-reinstall
 pip install 'jiwer==3.0.3' --force-reinstall
