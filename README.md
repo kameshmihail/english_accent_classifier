@@ -13,6 +13,7 @@ https://drive.google.com/drive/folders/16yvBUWeUKDBIymsYeQIA2H8YEQFfpoyR?usp=sha
 Не обязательно скачивать весь датасет. Готовые финальные виды данных для тренировки загружены и находятся в репозитории https://huggingface.co/TheHolyPacman под названиями train_dataset, eval_dataset, test_dataset. Из можно загрузить использую функцию load_dataset из библиотеки transformers. 
 
 2) Использование модели
+   
 Готовые веса модели могут быть загружены с репозитория :
    https://drive.google.com/drive/folders/1KJCrLk_sZPZiMgJMQmdwT8cdWsl7x2oC?usp=sharing
 После чего анализируемый датасет необходимо привести к образцу : https://huggingface.co/datasets/TheHolyPacman/train_dataset_2
