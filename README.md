@@ -8,6 +8,7 @@
 
 Для повторения или изменения процедуры тренировки необходимо установить среду jupyter-notebook, загрузить исходный датасет по ссылке :
 https://drive.google.com/drive/folders/16yvBUWeUKDBIymsYeQIA2H8YEQFfpoyR?usp=sharing
+
 Проверить, чтобы он находился в репозитории /audio относительно исполняемого файла. Затем следовать инструкции в блокноте classifier.ipynb для тренировки модели и возможного улучшения, например настройки гиперпараметров или изменения архитектуры.
 
 Не обязательно скачивать весь датасет. Готовые финальные виды данных для тренировки загружены и находятся в репозитории https://huggingface.co/TheHolyPacman под названиями train_dataset, eval_dataset, test_dataset. Из можно загрузить использую функцию load_dataset из библиотеки transformers. 
@@ -16,8 +17,10 @@ https://drive.google.com/drive/folders/16yvBUWeUKDBIymsYeQIA2H8YEQFfpoyR?usp=sha
    
 Готовые веса модели могут быть загружены с репозитория :
    https://drive.google.com/drive/folders/1KJCrLk_sZPZiMgJMQmdwT8cdWsl7x2oC?usp=sharing
+   
 После чего анализируемый датасет необходимо привести к образцу : https://huggingface.co/datasets/TheHolyPacman/train_dataset_2
 Далее следует использовать функцию преобработки wav2vec2 для корректных входных данных на модель (пример правильного результата после : https://huggingface.co/datasets/TheHolyPacman/test_dataset_2_mod)
+
 С данными в таком виде можно выполнять функции классификации типа акцента по примеру работы исходной модели.
 
 Образец того, как данные можно привести к необходимому виду приведены в файле external_data.ipynb на примере датасета common voice.
