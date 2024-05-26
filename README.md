@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/16yvBUWeUKDBIymsYeQIA2H8YEQFfpoyR?usp=sha
    https://drive.google.com/drive/folders/1KJCrLk_sZPZiMgJMQmdwT8cdWsl7x2oC?usp=sharing
    
 После чего анализируемый датасет необходимо привести к образцу : https://huggingface.co/datasets/TheHolyPacman/train_dataset_2
-Далее следует использовать функцию преобработки wav2vec2 для корректных входных данных на модель (пример правильного результата после : https://huggingface.co/datasets/TheHolyPacman/test_dataset_2_mod)
+Далее следует использовать функцию предобработки wav2vec2 для корректных входных данных на модель (пример правильного результата после : https://huggingface.co/datasets/TheHolyPacman/test_dataset_2_mod)
 
 С данными в таком виде можно выполнять функции классификации типа акцента по примеру работы исходной модели.
 
@@ -86,6 +86,9 @@ pip install 'wandb==0.16.0' --force-reinstall
 pip install 'matplotlib==3.5.1' --force-reinstall
 
 pip install 'tqdm==4.66.1' --force-reinstall
+
 pip install 'datasets==2.15.0' --force-reinstall
+
 pip install 'jiwer==3.0.3' --force-reinstall
+
 pip install 'typing==3.7.4.3' --force-reinstall
